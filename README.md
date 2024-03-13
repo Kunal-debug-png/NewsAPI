@@ -80,7 +80,11 @@ Clone the repository:
 Copy code
 git clone https://github.com/Kunal-debug-png/NewsAPI
 Install dependencies: npm install
-
+*Required Dependencies*
+1. express
+2. axios
+3. cors
+   
 
 Copy code
 cd news-website
