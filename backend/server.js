@@ -43,7 +43,7 @@ async function fetchNewsData() {
 app.get('/api/news', async (req, res) => {
   try {
     const newsData = await fetchNewsData();
-    //response in json formal for hybrid use of (api/news) for developers
+    //response in json formal for hybrid use of (api/news) for developer's
     res.json(newsData);
   } catch (error) {
     console.error('Error fetching news:', error);
